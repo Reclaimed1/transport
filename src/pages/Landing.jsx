@@ -1,6 +1,5 @@
 
-import Nav from '../component/Nav.jsx'
-import Afternav from '../component/Afternav.jsx'
+import Hero from '../component/Hero.jsx'
 import Midsection from '../component/Midsection.jsx'
 import Project from '../component/Project.jsx'
 import Testimonial from '../component/Testimonial.jsx'
@@ -12,10 +11,7 @@ import Footer from '../component/Footer.jsx'
 export default function Landing(){
     return(
         <div>
-              <div className='topImg h-[1035px] w-full bg-cover bg-center' >
-    <Nav />
-    <Afternav />
-      </div>
+            <Hero />
       <div id="about">
       <Midsection />
       </div>
