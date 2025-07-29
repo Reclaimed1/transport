@@ -3,6 +3,7 @@ import Afternav from '../component/Afternav.jsx'
 export default function Hero(){
     return(
  <div className='topImg h-[1035px] w-full bg-cover bg-center' >
+    <img src="" alt="" />
     <Nav />
     <Afternav />
       </div>
